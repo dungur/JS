@@ -1,5 +1,5 @@
 $(document).ready(function(e) {
-    $('#1,#2,#3,#4,#5,#6,#7,#8,#9,#0').click(function(){
+    $('#1,#2,#3,#4,#5,#6,#7,#8,#9,#0,#dot').click(function(){
         var v = $(this).val();
         $('#answer').val($('#answer').val() + v);
     });
