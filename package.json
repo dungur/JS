@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "eslint": "^3.5.0",
+        "eslint-config-google": "^0.5.0"
+    },
+    "eslintConfig": {
+        "extends": "google"
+    }
+}
