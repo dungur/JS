@@ -2,7 +2,7 @@
   "env": {
     "browser": true
   },
-  "extends": ["eslint:recommended", "google"],
+  "extends": "./node_modules/eslint-config-google/index.js",
   "parserOptions": {
     "ecmaVersion": 6
   },
